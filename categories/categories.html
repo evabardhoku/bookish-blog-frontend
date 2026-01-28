@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Sidebar Menu  | CodingLab </title>
+    <link rel="stylesheet" href="categories_style.css">
+
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="sidebar">
+    <div class="logo-details">
+        <div class="logo_name">Book Store</div>
+        <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+        <li>
+            <i class='bx bx-search'></i>
+            <input type="text" placeholder="Search..." >
+            <span class="tooltip" style="color:white">Search</span>
+        </li>
+        <li>
+            <a href="#" data-category="classics">
+                <i class="fa-solid fa-book-open-reader fa-beat"></i>
+                <span class="links_name">Classics</span>
+            </a>
+            <span class="tooltip">Classics</span>
+        </li>
+        <li>
+            <a href="#" data-category="kids">
+                <i class="fa-solid fa-puzzle-piece fa-beat"></i>
+                <span class="links_name">Kids</span>
+            </a>
+            <span class="tooltip">Kids</span>
+        </li>
+
+        <li>
+            <a href="#" data-category="fantasy">
+                <i class="fa-solid fa-dragon fa-4x fa-beat"></i>
+                <span class="links_name">Fantasy</span>
+            </a>
+            <span class="tooltip">Fantasy</span>
+        </li>
+        <li>
+            <a href="#" data-category="horror">
+                <i class="fa-solid fa-ghost fa-4x fa-beat"></i>
+                <span class="links_name">Horror</span>
+            </a>
+            <span class="tooltip">Horror</span>
+        </li>
+        <li>
+            <a href="#" data-category="comedy">
+                <i class="fa-regular fa-face-smile fa-4x fa-beat"></i>
+                <span class="links_name">Comedy</span>
+            </a>
+            <span class="tooltip">Comedy</span>
+        </li>
+        <li>
+            <a href="#" data-category="romance">
+                <i class="fa-solid fa-heart fa-4x fa-beat"></i>
+                <span class="links_name">Romance</span>
+            </a>
+            <span class="tooltip">Romance</span>
+        </li>
+        <li>
+            <a href="#" data-category="poetry">
+                <i class="fa-solid fa-pen-nib fa-4x fa-beat"></i>
+                <span class="links_name">Poetry</span>
+            </a>
+            <span class="tooltip">Poetry</span>
+        </li>
+        <li>
+            <a href="#" data-category="history">
+                <i class="fa-solid fa-chess fa-beat"></i>
+                <span class="links_name">History</span>
+            </a>
+            <span class="tooltip">History</span>
+        </li>
+        <li>
+            <a href="#" data-category="travel">
+                <i class="fa-solid fa-plane fa-beat"></i>
+                <span class="links_name">Travel</span>
+            </a>
+            <span class="tooltip">Travel</span>
+        </li>
+        <li class="profile">
+            <div class="profile-details">
+
+                    <img id="profileImg" src="../images/logo.png" alt="profileImg" style="cursor: pointer;">
+
+                <div class="name_job">
+                    <div class="name">Book Store</div>
+                    <div class="job">BookishBlog</div>
+                </div>
+
+
+            </div>
+
+                <i class='bx bx-home' ></i>
+
+        </li>
+    </ul>
+</div>
+
+<section class="home-section">
+    <div class="text">Categories</div>
+    <div class="mevete">
+        <section class="new-releases">
+            <div class="ot">
+                <a href="../bookcovers/bookcovers.html">
+                <div class="other-titles show" id="category-content">
+                    <!-- Book content will be injected here based on the category -->
+
+                </div>
+                </a>
+            </div>
+        </section>
+    </div>
+</section>
+
+<script src="scriptcategories.js"></script>
+
+</body>
+</html>

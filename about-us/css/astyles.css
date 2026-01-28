@@ -1,0 +1,242 @@
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+
+header{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0
+}
+
+.nav a {
+    text-decoration: none;
+    color: #151515; /* Link color */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* nav styles */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav i{
+    color:#000000;
+}
+
+.nav .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav .logo img {
+    max-width: 150px;
+    max-height: 100px;
+    display: block;
+}
+.img{
+    height: 150px;
+    width: 100px;
+}
+
+.hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #151515;
+}
+
+.nav__link {
+    /* position: fixed; */
+    width: 93%;
+    top: 8rem;
+    left: 18px;
+    background-color: #C73659;
+    z-index: 999;
+}
+
+.nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav__link a:hover {
+    background-color: #A91D3A;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .nav__link {
+        display: block; 
+        /* position: static; */
+        width:auto;
+        margin-right: 20px;
+        background: none;
+    }
+
+    .nav__link a {
+        display: inline-block;
+        padding: 15px 20px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+.rrethnesh h1{
+    color: #a91d3a;
+    text-align: center;
+    font-size: 60px;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15%;
+
+    
+}
+
+.historia{
+    flex: 1;
+    margin: -75px 10px; /* Adjust margin as needed */
+    width: 50%;
+    z-index: 100;
+    
+}
+/* .misioni {
+    flex: 1;
+    margin: 0 10px; 
+    width: 50%;
+    z-index: 100;
+    
+} */
+
+.historia h1 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.historia p {
+    padding: 18px 20px;
+    color: black; 
+}
+
+.historia{
+    background-color: rgb(221, 217, 217);
+    /* border-radius: 10px; */
+}
+
+
+img[alt="libri"]{
+    width: 50%;
+    position: relative;
+    left: 26%;
+}
+
+img[alt="cover"]{
+    width: 100%;
+    
+}
+
+@media screen and (min-width: 320px) {
+    .historia {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .historia {
+        width: 50%;
+    }
+
+}
+
+
+
+
+
+
+.footer-before-content {
+    text-align: center;
+
+
+}
+
+
+footer {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-part {
+    flex: 1 1 200px; 
+    margin: 10px;
+}
+
+.footer-part h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-part img {
+    max-width: 120px; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.footer-before-content p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+
+@media (max-width: 480px) {
+    .footer-part {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.footer-part a{
+    text-decoration: none;
+    color: #151515;
+}

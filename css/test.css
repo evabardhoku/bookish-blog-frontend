@@ -1,0 +1,39 @@
+.new-releases {
+    margin-bottom: 40%;
+
+}
+
+/* .releases-grid {
+    border: 1px solid #cacaca;
+} */
+
+
+.single-title img {
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.other-titles {
+    position: absolute;
+    top: 0;
+    transition: all .4s ease-in-out;
+}
+
+.other-titles:not(.show) {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ot {
+    position: relative;
+}
+
+@media (min-width: 700px) {
+
+    .other-titles__flex .single-title {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+}
