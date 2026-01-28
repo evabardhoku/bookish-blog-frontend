@@ -48,3 +48,6 @@ If you have Python installed:
 ```bash
 python -m http.server 5500
 ```
+
+<img width="1012" height="788" alt="book categories" src="https://github.com/user-attachments/assets/994e3ba8-83f4-4860-957b-2d2d74967691" />
+
